@@ -8,9 +8,3 @@ def isPrime(num):
             if num % i == 0:
                 return False
         return True
-
-print(isPrime(7919))
-print(isPrime(1000000))
-print(isPrime(6689))
-print(isPrime(5813))
-print(isPrime(5862))
